@@ -1,0 +1,124 @@
+.emp-sidebar{
+    background-color: #222D31;
+    width: 20%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+.emp-sidebar-user-name{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.emp-sidebar-name-icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.emp-sidebar-name{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 14px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.emp-sidebar-icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.emp-dashboard-topbar{
+    background-color: #2E4F4E;  
+    width: 78vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.emp-dashboard{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.emp-dashboard-bottom-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.emp-dashboard-bottom-cards{
+    width: 20%;
+    height: 110px;
+    padding: 10px;
+    
+}
+.card-1{
+    background-color: #718090;
+}
+.card-2{
+    background-color: #00A65F;
+}
+.card-3{
+    background-color: #DD4C3A;
+}
+.card-4{
+    background-color: #f89c14;
+}
+.emp-topbar-icon{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.emp-topbar-user-name{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+}
+.emp-dashboard-card-icon{
+    font-size: 67px;
+    color: white;
+    opacity: 0.5;
+    width: 100%;
+}
+.emp-dashboard-calander-image{
+    height: 65vh;
+    width: 70vw;
+    text-align: center;
+}
+.emp-dashboard-bottom-card-name{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
